@@ -1,0 +1,24 @@
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1dad2;
+}
+
+.subtext {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #f1dad2;
+}
+
+body {
+    background-color: #d21117ff;
+}
