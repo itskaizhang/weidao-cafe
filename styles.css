@@ -48,5 +48,5 @@ body {
     margin: 0;
     padding: 0;
     color:rgb(217, 49, 49);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
