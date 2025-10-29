@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PP Neue Montreal';             
+    src: url('../assets/ppneuemontreal-book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.cafe-header {
+    font-size: 100px; 
+    font-family: 'Instrument Serif', serif;
+    padding: 50px 150px 50px 150px;
+    text-align: center;
+    line-height: 100px;
+    /* margin-top: 3%; */
+}
+
+.title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .title {
+    color: #f9ece7;
+    /* color: rgb(217, 49, 49); */
+}
+
+ 
+h2 {
+    font-family: 'PP Neue Montreal';
+    font-size: 17px;
+}
+
+.subtext {
+    /* font-family: 'Instrument Serif', serif; */
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.5em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* color: #f1dad2; */
+}
+
+body {
+    background-color: rgb(217, 49, 49);
+    margin: 0;
+    padding: 0;
+    color: #f9ece7;
+    /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none;
+    color: #f9ece7;
+}

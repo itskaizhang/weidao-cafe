@@ -10,6 +10,18 @@
     left: 2%;
 }
 
+.menu.about {
+    font-family: "Instrument Serif", serif;
+    font-size: 20px;
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: none;
+    position: absolute;
+    top: 35px;
+    left: 2%;
+    color: #f9ece7;
+}
+
 .menu:hover {
     pointer-events: all;
 }
@@ -44,6 +56,16 @@
     transition-delay: 0.7s;
 }
 
+.spacer.about:before {
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #f9ece7;
+    height: 1px;
+    width: 0%;
+    transition: width 0.25s ease;
+    transition-delay: 0.7s;
+}
+
 .item {
     position: relative;
     display: inline-block;
@@ -59,7 +81,12 @@ span {
 }
 
 .item:hover span {
-    color: #7b0000;
+    color: #742a2a;
+    text-decoration: underline;
+}
+
+.item.about:hover span {
+    color: #ff8686;
     text-decoration: underline;
 }
 

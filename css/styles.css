@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'PP Neue Montreal';             
-    src: url('assets/ppneuemontreal-book.otf') format('truetype');
+    src: url('../assets/ppneuemontreal-book.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -49,4 +49,9 @@ body {
     padding: 0;
     color:rgb(217, 49, 49);
     /* overflow: hidden; */
+}
+
+a {
+    text-decoration: none;
+    color: rgb(217, 49, 49);
 }
