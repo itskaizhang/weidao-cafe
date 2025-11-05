@@ -28,3 +28,15 @@ function animate() {
 }
 
 animate();
+
+
+// menu.html -- Horizontal scrolling
+const wrapper = document.querySelector('.horizontal-scroll-wrapper');
+const scrollContainer = document.querySelector('.horizontal-scroll');
+
+wrapper.addEventListener('wheel', (e) => {
+  e.preventDefault(); // prevent default vertical scrolling
+
+  // scroll horizontally by vertical delta
+  scrollContainer.scrollLeft += e.deltaY * 2;
+});

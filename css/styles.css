@@ -6,7 +6,7 @@
   }
 
 .cafe-header {
-    font-size: 250px; 
+    font-size: 200px; 
     font-family: 'Instrument Serif', serif;
     text-align: center;
     line-height: 8px;
@@ -71,4 +71,9 @@ body {
 a {
     text-decoration: none;
     color: rgb(217, 49, 49);
+}
+
+::selection {
+    background: #f9ece7; /* highlight color */
+    color: rgb(217, 49, 49); /* text color when selected */
 }

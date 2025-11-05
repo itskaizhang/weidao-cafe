@@ -3,11 +3,12 @@
     font-size: 17px;
     color: black;
     /* color: rgb(217, 49, 49); */
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     cursor: pointer;
     pointer-events: none;
     position: absolute;
-    top: 35px;
+    top: 20px;
     left: 2%;
 }
 
