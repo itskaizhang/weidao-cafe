@@ -6,7 +6,7 @@
   }
 
 .cafe-header {
-    font-size: 200px; 
+    font-size: 250px; 
     font-family: 'Instrument Serif', serif;
     text-align: center;
     line-height: 8px;
@@ -31,7 +31,6 @@ h2 {
 }
 
 .subtext {
-    /* font-family: 'Instrument Serif', serif; */
     font-family: 'Instrument Serif', serif;
     font-size: 1.5em;
     display: flex;
@@ -43,12 +42,30 @@ h2 {
     /* color: #f1dad2; */
 }
 
+.bottom-text {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    padding: 0 2%; /* safe horizontal space */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'PP Neue Montreal';
+    font-size: 14px;
+    box-sizing: border-box; /* ensures padding is counted inside width */
+}
+
 body {
     background-color: #f9ece7;
     margin: 0;
     padding: 0;
-    color:rgb(217, 49, 49);
-    /* overflow: hidden; */
+    color: 'black';
+    height: 100%;
+    /* color:rgb(217, 49, 49); */
+    overflow: hidden;
+    /* background: hsla(0, 81%, 51%, 1);
+    background: radial-gradient(circle, hsla(0, 81%, 51%, 1) 0%, hsla(0, 0%, 100%, 1) 100%); */
 }
 
 a {

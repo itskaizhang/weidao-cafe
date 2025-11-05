@@ -1,0 +1,36 @@
+.menu {
+    font-family: 'PP Neue Montreal';
+    font-size: 17px;
+    color: black;
+    /* color: rgb(217, 49, 49); */
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: none;
+    position: absolute;
+    top: 35px;
+    left: 2%;
+}
+
+.menu:hover {
+    pointer-events: all;
+}
+
+.label {
+    display: inline-block;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(54, 32, 32);
+    text-decoration: underline;
+}
+
+/* .label:hover {
+    text-decoration: underline;
+} */
