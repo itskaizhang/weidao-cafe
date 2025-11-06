@@ -5,6 +5,13 @@
     font-style: normal;
   }
 
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .cafe-header {
     font-size: 195px; 
     font-family: 'Instrument Serif', serif;
@@ -77,3 +84,6 @@ a {
     background: #f9ece7; /* highlight color */
     color: rgb(217, 49, 49); /* text color when selected */
 }
+
+
+/* Media queries for mobile */
