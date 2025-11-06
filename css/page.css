@@ -14,6 +14,17 @@
     /* margin-top: 3%; */
 }
 
+.nov-15 {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  font-size: 175px; 
+  flex-wrap: wrap;
+  font-family: 'Instrument Serif', serif;
+  text-align: center;
+  line-height: 160px;
+}
+
 .title {
     font-family: 'Instrument Serif', serif;
     font-size: 4em;
@@ -86,7 +97,7 @@ body {
   overflow-y: auto;     /* enable vertical scrolling (for wheel events) */
   height: auto;        /* full viewport height */
   min-height: 100vh;
-  width: 100vw;
+  min-width: 100vw;
   position: relative;
   z-index: 1;
 }
@@ -98,6 +109,7 @@ body {
   width: max-content;   /* fit all boxes in a row */
   align-items: stretch;
   font-family: "Instrument Serif";
+  flex-wrap: nowrap;
 }
 
 /* Each box */
@@ -114,4 +126,18 @@ body {
   line-height: 60px;
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.bottom-text {
+  position: relative;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  padding: 0 2%; /* safe horizontal space */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: 'PP Neue Montreal';
+  font-size: 14px;
+  box-sizing: border-box; /* ensures padding is counted inside width */
 }
