@@ -12,6 +12,17 @@
     left: 2%;
 }
 
+.menu.nav {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: rotate(-90deg) translateY(-200%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    z-index: 1000;
+}
+
 .menu:hover {
     pointer-events: all;
 }
