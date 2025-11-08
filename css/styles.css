@@ -3,7 +3,14 @@
     src: url('../assets/ppneuemontreal-book.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+@font-face {
+    font-family: 'Sim Sun';             
+    src: url('../assets/Simsun.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .hero-container {
     display: flex;
