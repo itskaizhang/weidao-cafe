@@ -46,3 +46,41 @@ a:hover {
 /* .label:hover {
     text-decoration: underline;
 } */
+
+/* Hamburger navbar */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin-top: -5px;
+    font-weight: 50;
+  }
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+  
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 30px;
+        background-color: #f9ece7;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}

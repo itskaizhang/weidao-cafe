@@ -35,3 +35,12 @@ scrollContainer.addEventListener('wheel', (evt) => {
     evt.preventDefault(); // prevent vertical scrolling
     scrollContainer.scrollLeft += evt.deltaY; // move horizontal by vertical delta
 });
+
+
+// Hamburger menu
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('nav-links');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
