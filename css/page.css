@@ -145,3 +145,53 @@ body {
   font-size: 14px;
   box-sizing: border-box; /* ensures padding is counted inside width */
 }
+
+
+/* Media queries for mobile */
+@media only screen and (max-width:768px) {
+  .cafe-header {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 100px;
+      line-height: 5px;
+  }
+
+  .title {
+      font-size: 2.5em;
+  }
+
+  .subtext {
+      flex-direction: column;
+      font-size: 1em;
+      margin: 50px 5%;
+      text-align: center;
+      padding: 10px;
+  }
+
+  .bottom-text {
+      flex-direction: row;
+      align-items: center;
+      font-size: 11px;
+      text-align: center;
+      gap: 4px;
+  }
+
+  .nov-15 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  /*  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  font-size: 175px; 
+  flex-wrap: wrap;
+  font-family: 'Instrument Serif', serif;
+  text-align: center;
+  line-height: 160px; */
+
+  body {
+      overflow: auto; /* allow scrolling on mobile */
+      padding: 0 5px;
+  }
+}
