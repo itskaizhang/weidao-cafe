@@ -78,7 +78,7 @@ a:hover {
     /* menu.html */
     .menu.nav {
         position: fixed;
-        top: 44%;
+        top: 160px;
         left: -68px;
         transform: rotate(-90deg) translateY(-200%);
         display: flex;

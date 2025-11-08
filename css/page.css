@@ -25,6 +25,11 @@
   line-height: 160px;
 }
 
+.nov-15 p {
+    padding: 0 5%;
+    box-sizing: border-box;
+}
+
 .title {
     font-family: 'Instrument Serif', serif;
     font-size: 4em;
@@ -161,6 +166,7 @@ body {
     line-height: 80px;
     text-align: center;
     padding: 8px 50px 3px 50px;
+    margin-top:-60px;
   }
 
   .about-x {
@@ -197,6 +203,11 @@ body {
     line-height: 70px;
   }
   
+  .nov-15 p {
+    padding: 0 5%;
+    box-sizing: border-box;
+  }
+
   #scroll-container {
     overflow-y: auto;
     overflow-x: hidden;
