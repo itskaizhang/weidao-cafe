@@ -62,8 +62,11 @@ a:hover {
     gap: 20px;
 }
   
-
 @media (max-width: 768px) {
+    .menu {
+        pointer-events: none;
+    }
+    
     .hamburger {
         display: block;
     }
