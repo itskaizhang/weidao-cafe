@@ -53,7 +53,7 @@ body .title {
 }
 
 #menu-body {
-  overflow: hidden;
+  overflow: auto;
 }
 
  
@@ -97,7 +97,7 @@ body {
   overflow-y: auto;     /* enable vertical scrolling (for wheel events) */
   height: auto;        /* full viewport height */
   min-height: 100vh;
-  min-width: 110vw;
+  min-width: 100vw;
   position: relative;
   z-index: 1;
 }
