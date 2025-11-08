@@ -97,7 +97,7 @@ body {
   overflow-y: auto;     /* enable vertical scrolling (for wheel events) */
   height: auto;        /* full viewport height */
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 110vw;
   position: relative;
   z-index: 1;
 }
@@ -156,6 +156,13 @@ body {
       line-height: 100px;
   }
 
+  .cafe-header.about-weidao {
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding: 8px 50px 3px 50px;
+  }
+
   .title {
       font-size: 2.5em;
   }
@@ -168,27 +175,31 @@ body {
       padding: 10px;
   }
 
+  .about {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
   .bottom-text {
-      flex-direction: row;
-      align-items: center;
-      font-size: 11px;
-      text-align: center;
-      gap: 4px;
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+    text-align: center;
+    gap: 4px;
   }
 
   .nov-15 {
     font-size: 70px;
     line-height: 70px;
   }
+  
+  #scroll-container {
+    margin-left: -10px;
+  }
 
-  /*  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  font-size: 175px; 
-  flex-wrap: wrap;
-  font-family: 'Instrument Serif', serif;
-  text-align: center;
-  line-height: 160px; */
+  #menu-container .box {
+    flex: 0 0 90vw;
+  }
 
   body {
       overflow: auto; /* allow scrolling on mobile */
