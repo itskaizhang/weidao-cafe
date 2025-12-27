@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'PP Neue Montreal';             
+    src: url('../assets/ppneuemontreal-book.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sim Sun';             
+    src: url('../assets/Simsun.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f9ece7;
+    font-family: "Instrument Serif", serif;
+    margin: 0;
+    padding: 0;
+    color: 'black';
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    color: #FFE4E1;
+    background-color: #d93131;
+}
+
+::selection {
+    background: #f9ece7; /* highlight color */
+    color: rgb(217, 49, 49); /* text color when selected */
+}
+
+.nav {
+    font-family: "Lexend Peta", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: -1.2px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+} 
+
+.logo {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#red {
+    display: none;
+}
+
+.logo-link:hover #black {
+    display: none;
+}
+
+.logo-link:hover #red {
+    display: inline;
+}
+
+/* Main hero - name, description */ 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -52%);
+    left: 50%;
+    top: 50%;
+}
+
+.name {
+    font-size: 140px; 
+    font-family: 'Instrument Serif', serif;
+    text-align: center;
+    line-height: 3px;
+    /* margin-top: 3%; */
+}
+
+.description {
+    font-family: 'Instrument Serif', serif;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10% 0px 10%;
+}
+
+ 
+h2 {
+    /* font-family: 'PP Neue Montreal'; */
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    position: relative; 
+    z-index: 10;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.footer {
+    font-family: "Lexend Peta", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+/* Media queries for mobile */
+@media only screen and (max-width:768px) {
+    .cafe-header {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 100px;
+        line-height: 5px;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .subtext {
+        flex-direction: column;
+        font-size: 1em;
+        margin: 50px 5%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .bottom-text {
+        flex-direction: row;
+        align-items: center;
+        font-size: 11px;
+        text-align: center;
+        gap: 4px;
+    }
+
+    body {
+        overflow: auto; /* allow scrolling on mobile */
+        padding: 0 5px;
+    }
+}
