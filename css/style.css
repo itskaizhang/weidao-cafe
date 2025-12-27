@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'PP Neue Montreal';             
-  src: url('../assets/ppneuemontreal-book.otf') format('truetype');
+  src: url('assets/ppneuemontreal-book.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
   }
@@ -10,6 +10,8 @@ body {
   margin: 0;
   padding: 0;
   color: #000000;
+  height: 100%;
+  width: 100%;
   /* overflow: hidden; */
 }
 
@@ -74,24 +76,6 @@ body .title {
   color: #f9ece7;
   z-index: 0;
 }
-
-/* 味道 Overlay text */
-.overlay-text {
-  position: fixed;         
-  top: 5px;                
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1000;            
-  color: #000000;
-  font-family: 'PP Neue Montreal', sans-serif;
-  font-size: 3em;
-  text-align: center;
-}
-
-#menu-body {
-  overflow: auto;
-}
-
  
 h2 {
   font-family: 'PP Neue Montreal';
@@ -131,16 +115,15 @@ h2 {
 
 /* menu.html */
 .menu-body {
-  font-size: 60px;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  line-height: 60px;
+  align-items: center;
   padding-right: -10%;
   padding-left: -10%;
-  position: absolute;
-  transform: translate(-50%, -65%);
-  left: 50%;
-  top: 50%;
   z-index: 1;
 }
 
@@ -187,75 +170,20 @@ h2 {
 
   /* about.html */
   .about {
-    font-size: 60px;
-    line-height: 60px;
-    padding: 2px 10% 25px 10%;
+    font-size: 50px;
+    line-height: 55px;
+    padding: 20px 8% 10px 8%;
   }
 
   .description {
-    font-size: 45px;
-    line-height: 50px;
-  }
-
-  .bottom-text {
-    flex-direction: row;
-    align-items: center;
-    font-size: 11px;
-    text-align: center;
-    gap: 4px;
-  }
-
-  .nov-15 {
-    font-size: 70px;
-    line-height: 70px;
-  }
-  
-  .nov-15 p {
-    padding: 0 5%;
-    box-sizing: border-box;
-  }
-
-  #scroll-container {
-    overflow-y: auto;
-    overflow-x: hidden;
-    width: 100%;
-    margin-left: -5px;
-    padding-top: 240px;
-    height: auto;
-    height: 100%;
-    min-height: 100vh;
-    position: relative;
-    z-index: 1;
-    -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
-  }
-  
-  #menu-container {
-    display: flex;
-    flex-direction: column;  /* vertical layout */
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-  }
-
-  #menu-container .box {
-    flex: 0 0 auto;
-    width: 90vw;          /* fit screen width */
-    height: auto;       
-    padding: 60px 20px 120px 20px;
     font-size: 40px;
     line-height: 45px;
-    margin-bottom: 80px;  /* spacing between boxes */
+    padding: 0px 9% 10px 9%;
   }
 
-  #menu-container .box:last-child {
-    margin-bottom: 0;   /* remove bottom gap after last box */
-  }
-
-  body {
-    overflow: auto; /* allow scrolling on mobile */
-    padding: 0 5px;
-    height: 100%;
-    width: 100%;
+  .menu-description {
+    font-size: 30px;
+    margin-top: 40px;
   }
 }
 
